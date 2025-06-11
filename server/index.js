@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const Db_Path = "mongodb://127.0.0.1:27017/test";
+const Db_Path = "mongodb+srv://yernikumar1912:ywy5dSzztucM8WUv@cluster0.etu2sod.mongodb.net/todoApp?retryWrites=true&w=majority&tls=true";
 
 mongoose.connect(Db_Path);
 
