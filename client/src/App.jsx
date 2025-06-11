@@ -8,7 +8,7 @@ const App = () => {
 
   const fetchTasks = () => {
     axios
-      .get("http://localhost:3001")
+      .get("https://todo-app-lns4-server.vercel.app/")
       .then((res) => setTaskList(res.data))
       .catch((err) => console.log(err));
   };
